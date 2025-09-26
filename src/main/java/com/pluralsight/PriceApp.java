@@ -7,6 +7,7 @@ float unitPrice = 8.97f;
 float taxRate = 0.825f;
 float totalCost;
 
-
+totalCost = (count * unitPrice) * (1 + taxRate);
+        System.out.println(totalCost);
     }
 }
